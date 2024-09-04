@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 09:11:14 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0wOS0wNDswODoxNzowMCBQTTsyNjE3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0wOS0wNDswOToxMToxNCBQTTsxOzI3MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nama" type="String" array="False" size=""/>
+            <input variable="Nama"/>
+            <output expression="&quot;Nama saya adalah &quot; &amp; Nama" newline="True"/>
+            <declare name="Bilangan" type="Integer" array="False" size=""/>
+            <input variable="Bilangan"/>
+            <output expression="&quot;Tahun lahir saya adalah &quot; &amp; Bilangan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
